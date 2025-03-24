@@ -40,6 +40,11 @@ WARNING!!! WARNING!!!
     // Loop over the names array and say either 'Hello' or "Good Bye"
     // using either the helloSpeaker's or byeSpeaker's 'speak' method.
     // See Lecture 50, part 1
+    console.log("script.js: helloSpeaker", helloSpeaker);
+    console.log("script.js: helloSpeaker.speak", helloSpeaker.speak);
+
+
+
     for (var i = 0; i < names.length; i++) {
     
       // STEP 11: (NOTHING TO DO. ALREADY DONE FOR YOU)
