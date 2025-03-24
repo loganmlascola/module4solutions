@@ -26,7 +26,6 @@
     // 'byeSpeaker' on the global scope as well.
     window.byeSpeaker = byeSpeaker;
 
-    console.log("goodbye.js: byeSpeaker defined", window.byeSpeaker);
 
 })();
 
