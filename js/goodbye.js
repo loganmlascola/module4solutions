@@ -22,8 +22,6 @@
         p.textContent = speakWord + " " + name; // format of goodbye and names
 
         outputDiv.appendChild(p); // gives positions for the names for goodbye to be printed out 
-
-        console.log(speakWord + " " + name); // print names out
     };
 
     // STEP 9: Expose the 'byeSpeaker' object to the global scope. Name it
