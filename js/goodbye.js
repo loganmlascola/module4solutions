@@ -19,19 +19,14 @@
     // byeSpeaker object instead of being a standalone function.
     // See Lecture 52, part 2
     byeSpeaker.speak = function speak(name) {
-        var outputDiv = document.getElementById("console-output");
-        var p = document.createElement("p");
+        var outputDiv = document.getElementById("console-output"); // id from index.html
+        var p = document.createElement("p"); // names in p tag
 
-        p.textContent = speakWord + " " + name;
+        p.textContent = speakWord + " " + name; // format of goodbye and names
 
+        outputDiv.appendChild(p); // list names for goodbye
 
-        // console.log(speakWord + " " + name);
-        outputDiv.appendChild(p);
-
-
-
-
-        console.log(speakWord + " " + name);
+        console.log(speakWord + " " + name); // print names out
     };
 
     // STEP 9: Expose the 'byeSpeaker' object to the global scope. Name it

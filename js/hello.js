@@ -16,8 +16,8 @@
     // helloSpeaker object instead of being a standalone function.
     // See Lecture 52, part 2
     helloSpeaker.speak = function speak(name) {
-        var outputDiv = document.getElementById("console-output");
-        var p = document.createElement("p");
+        var outputDiv = document.getElementById("console-output"); // id from index.html
+        var p = document.createElement("p"); // element in p tag
 
         p.textContent = speakWord + " " + name;
 
